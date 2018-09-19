@@ -1,0 +1,29 @@
+AA
+FXAA is the cheapest technique and is recommended for mobile and other platforms that don’t support motion vectors, which are required for TAA.
+
+Ambient Occlusion
+Generally speaking, this effect should not be considered on mobile platforms and when running on consoles we recommend using the Multi-scale Volumetric Occlusion mode as it's much faster there and looks better in most cases.
+
+Bloom
+Lowering the Diffusion parameter will make the effect faster. The further away Anamorphic Ratio is from 0, the slower it will be. On mobile and low-end platforms it is recommended to enable Fast Mode as it gives a significant boost in performances.
+Finally, smaller lens dirt textures will result is faster lookup and blending across volumes.
+
+Chromatic Aberration
+The Chromatic Aberration effect is used to replicate this camera defect, it is also often used to artistic effect such as part of camera impact or intoxication effects. This implementation provides support for red/blue and green/purple fringing as well as user defined color fringing via an input texture.
+
+Mobile
+FXAA
+Bloom
+Chromatic Aberration
+
+
+
+
+
+
+
+
+Not Mobile
+Ambient Occlusion
+SMAA
+TAA
