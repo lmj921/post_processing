@@ -2,3 +2,7 @@
 .DS_Store
 post_processing/Library
 post_processing/Temp
+*.csproj
+post_processing/obj
+*.sln
+*.userprefs
